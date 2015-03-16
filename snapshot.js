@@ -1,7 +1,7 @@
 var page = require('webpage').create(),
     system = require('system'),
     address, output, size;
-//How to to wait for kibana to load and the data from elasticseatch in milliseconds.
+//How long to wait for the page to finish rendering
 var waitTime = 10 * 1000;
 
 if (system.args.length < 3 || system.args.length > 5) {
