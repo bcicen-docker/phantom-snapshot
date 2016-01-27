@@ -1,10 +1,6 @@
-#phantom-snapshot
-
 FROM bcicen/phantomjs:latest
-MAINTAINER Bradley Cicenas <bradley.cicenas@gmail.com>
 
-ADD snapshot.js /
-ADD run.sh /
+COPY . /app
 
 VOLUME /snaps
 WORKDIR /snaps

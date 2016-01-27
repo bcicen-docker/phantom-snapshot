@@ -1,3 +1,3 @@
 #!/bin/bash
 
-phantomjs $PHANTOMJS_OPTS /snapshot.js $@
+phantomjs $PHANTOMJS_OPTS /app/snapshot.js $@
