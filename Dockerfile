@@ -5,4 +5,4 @@ COPY . /app
 VOLUME /snaps
 WORKDIR /snaps
 
-ENTRYPOINT [ "/run.sh" ]
+ENTRYPOINT [ "/app/run.sh" ]
